@@ -5,3 +5,16 @@
   list-style: none;
   text-decoration: none;
 }
+.box {
+  height: 300px;
+  width: 300px;
+  background: #3f5efb;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  margin: 30px;
+  border-radius: 1.2rem;
+  box-shadow: 0 0 10px 2px #ccc;
+}
